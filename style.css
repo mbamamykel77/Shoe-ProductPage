@@ -1,0 +1,511 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+  background-color: black;
+  width: 70%;
+  height: 100%;
+  border: 2px solid;
+  margin-left: 20px;
+  color: white;
+}
+
+.navbar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 50px;
+  flex-direction: row;
+  display: flex;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.info ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: 400px;
+  margin-top: -50px;
+}
+
+.info li {
+  margin-left: 30px;
+}
+
+.info a:hover {
+  letter-spacing: 3px;
+  border-radius: 5px;
+  background-color: deeppink;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.box-1 {
+  width: 60%;
+  background-color: rgb(36, 35, 35);
+}
+
+.box-1 h1 {
+  font-size: 50px;
+}
+
+.first-detail {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.first-detail h1 {
+  margin-bottom: -5px;
+}
+
+.details {
+  padding-left: 50px;
+}
+
+.size {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.size-no ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.no-7 {
+  border: 3px solid deeppink;
+  margin-right: 10px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+}
+.no-7:hover {
+  background-color: deeppink;
+}
+
+.no-75 {
+  border: 3px solid deeppink;
+  margin-right: 10px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+}
+.no-75:hover {
+  background-color: deeppink;
+}
+
+.no-8 {
+  border: 3px solid deeppink;
+  margin-right: 10px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+}
+.no-8:hover {
+  background-color: deeppink;
+}
+
+.no-85 {
+  background-color: deeppink;
+  border: 3px solid deeppink;
+  margin-right: 10px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+}
+.no-85:hover {
+  background-color: deeppink;
+}
+
+.no-9 {
+  border: 3px solid deeppink;
+  margin-right: 10px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+}
+.no-9:hover {
+  background-color: deeppink;
+}
+
+.no-95 {
+  border: 3px solid deeppink;
+  margin-right: 10px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+.no-95:hover {
+  background-color: deeppink;
+}
+
+.no-10 {
+  border: 3px solid deeppink;
+  margin-right: 10px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+}
+.no-10:hover {
+  background-color: deeppink;
+}
+
+.color {
+  padding-left: 50px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+}
+
+.color .yellow {
+  margin-left: 20px;
+  margin-top: 21px;
+  margin-right: 20px;
+  height: 25px;
+  width: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.color .red {
+  margin-top: 21px;
+  margin-right: 20px;
+  height: 25px;
+  width: 25px;
+  background-color: pink;
+  border-radius: 50%;
+}
+
+.color .blue {
+  margin-top: 21px;
+  margin-right: 20px;
+  height: 25px;
+  width: 25px;
+  background-color: rgb(0, 217, 255);
+  border-radius: 50%;
+}
+
+.btn {
+  text-align: center;
+  margin-right: 200px;
+  padding-bottom: 90px;
+}
+
+.btn button {
+  width: 85%;
+  height: 70px;
+  border-radius: 15px;
+  background-color: deeppink;
+  color: white;
+  margin-left: 50px;
+  padding-bottom: 30px;
+}
+
+.btn h2 {
+  font-weight: 800;
+  font-size: 23px;
+  color: white;
+}
+
+.btn h2:hover {
+  background-color: black;
+  border-radius: 15px 15px;
+  letter-spacing: 2px;
+}
+
+.box-2 {
+  width: 40%;
+  background-color: deeppink;
+}
+
+.main-image {
+  margin-top: 10px;
+  transform: rotate(-20deg);
+}
+
+.sec-image {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  padding-top: 100px;
+}
+
+.img-yellow {
+  background-color: white;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.img-pink {
+  background-color: white;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.img-pink:hover {
+  border: 3px solid black;
+}
+
+.img-blue {
+  background-color: white;
+  border-radius: 10px;
+}
+.img-blue:hover {
+  border: 3px solid black;
+}
+
+.mobile {
+  background-color: black;
+  width: 25%;
+  height: 950px;
+  border: 2px solid;
+  margin-left: 40px;
+  color: white;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.top-img {
+    background-color: white;
+    height: 20px;
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 170px;
+    text-align: center;
+}
+
+.view {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -70px;
+}
+
+.puma-price {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    padding-top: 30px;
+}
+
+.puma-price h1 {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.puma-price p {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.mobile-box {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.main-image2 {
+  margin-top: 10px;
+  transform: rotate(-20deg);
+}
+
+.sec-image2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    padding-top: 15px;
+  }
+
+
+.mobile-yellow {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 3px solid ;
+  }
+  .mobile-yellow:hover {
+    background-color: deeppink;
+  }
+
+  .mobile-pink {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 3px solid ;
+  }
+  .mobile-pink:hover {
+    background-color: deeppink;
+  }
+
+  .mobile-blue {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 3px solid ;
+  }
+  .mobile-blue:hover {
+    background-color: deeppink;
+  }
+
+  .size-mobile {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .size-noMobile ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  .mobile-7 {
+    border: 1px solid deeppink;
+    margin-right: 10px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+    margin-left: -20px;
+  }
+  .mobile-7:hover {
+    background-color: deeppink;
+  }
+  .mobile-75 {
+    border: 1px solid deeppink;
+    margin-right: 10px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+    font-size: 12px;
+  }
+  .mobile-75:hover {
+    background-color: deeppink;
+  }
+  .mobile-8 {
+    border: 1px solid deeppink;
+    margin-right: 10px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+    font-size: 12px;
+  }
+  .mobile-8:hover {
+    background-color: deeppink;
+  }
+  .mobile-85 {
+    border: 1px solid deeppink;
+    margin-right: 10px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+    font-size: 12px;
+  }
+  .mobile-85:hover {
+    background-color: deeppink;
+  }
+  .mobile-9 {
+    border: 1px solid deeppink;
+    margin-right: 10px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+    font-size: 12px;
+  }
+  .mobile-9:hover {
+    background-color: deeppink;
+  }
+  .mobile-95 {
+    border: 1px solid deeppink;
+    margin-right: 10px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+    font-size: 12px;
+  }
+  .mobile-95:hover {
+    background-color: deeppink;
+  }
+  .mobile-10 {
+    border: 1px solid deeppink;
+    margin-right: 10px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+    font-size: 12px;
+  }
+  .mobile-10:hover {
+    background-color: deeppink;
+  }
+
+  .end-p {
+    margin-left: 20px;
+  }
+
+.end-list p {
+    margin-bottom: 10px;
+}
+  .end-list {
+    margin-left: 20px;
+  }
+  
+  .btn-end button {
+    width: 90%;
+    height: 50px;
+    border-radius: 15px;
+    background-color: deeppink;
+    color: white;
+    margin-left: 20px;
+    padding-bottom: 30px;
+    padding-top: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  
+  
+  .btn-end button:hover {
+    background-color: white;
+    border-radius: 15px 15px;
+    letter-spacing: 2px;
+    color: deeppink;
+  }
+
